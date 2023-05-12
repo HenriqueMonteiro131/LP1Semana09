@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AnimalPerspective
 {
-    public class Bat
+    public class Bat: Animal
     {
         
     }

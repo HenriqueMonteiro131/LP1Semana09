@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace AnimalPerspective
 {
-    public class Bee: Animal
+    public interface IMammal
     {
-        
+        int NumberofNipples {get; }
     }
 }
