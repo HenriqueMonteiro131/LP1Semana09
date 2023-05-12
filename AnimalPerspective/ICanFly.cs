@@ -9,4 +9,24 @@ namespace AnimalPerspective
     {
         int NumberOfWings {get; }
     }
+
+    public class Bat: ICanFly
+    {
+        public int NumberOfWings {get; }
+
+        public Bat()
+        {
+            NumberOfWings = 2;
+        }
+
+        public class Bee : ICanFly
+{
+        public int NumberOfWings { get; }
+
+         public Bee()
+    {
+        NumberOfWings = 4; 
+    }
+}
+    }
 }
