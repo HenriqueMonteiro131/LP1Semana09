@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace AnimalPerspective 
 {
-    public class Dog: Animal
+    public class Cat : Animal
     {
-        public override string Sound()
+       public override string Sound()
         {
-            return base.Sound() + "Woof!";
-        }
+            return base.Sound() + "Miau";
+        } 
     }
 }
