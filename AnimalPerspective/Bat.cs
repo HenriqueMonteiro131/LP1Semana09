@@ -5,8 +5,16 @@ using System.Threading.Tasks;
 
 namespace AnimalPerspective
 {
-    public class Bat: Animal
+    public class Bat: IMammal
     {
+        public int NumberOfNipples { get; }
+
+        public Bat()
+
+       {
+
+        NumberOfNipples = 4;
         
+       }
     }
 }
